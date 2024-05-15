@@ -2,7 +2,7 @@
 const { spawn } = require('child_process');
 const { mkdirSync, mkdtempSync } = require('fs');
 const { tmpdir } = require('os');
-const { join } = require('path');
+const { join } = require('path'); 
 
 function runTests(options) {
 	const testsDir = join(tmpdir(), 'n8n-e2e/');
